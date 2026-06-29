@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Cabinet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Virtual Pinball Cabinet</Name>
+  <OutputControllers>
+    <PinscapePico>
+      <Name>Pinscape Pico 01</Name>
+      <NumberOfOutputs>2</NumberOfOutputs>
+      <Number>1</Number>
+      <MinCommandIntervalMs>1</MinCommandIntervalMs>
+    </PinscapePico>
+  </OutputControllers>  
+<Toys>
+  <Lamp>
+    <Name>Launch Ball Button</Name>
+    <OutputName>Pinscape Pico 01\Pinscape Pico 01.01</OutputName>
+    <OutputControllerName>PinscapePico</OutputControllerName>
+  </Lamp>
+  <Lamp>
+    <Name>Fire Button</Name>
+    <OutputName>Pinscape Pico 01\Pinscape Pico 01.02</OutputName>
+    <OutputControllerName>PinscapePico</OutputControllerName>
+  </Lamp>
+  <LedWizEquivalent>
+    <Name>LedWizEquivalent 120</Name>
+    <Outputs>
+      <LedWizEquivalentOutput>
+        <OutputName>Pinscape Pico 01\Pinscape Pico 01.01</OutputName>
+        <LedWizEquivalentOutputNumber>1</LedWizEquivalentOutputNumber>
+      </LedWizEquivalentOutput>
+      <LedWizEquivalentOutput>
+        <OutputName>Pinscape Pico 01\Pinscape Pico 01.02</OutputName>
+        <LedWizEquivalentOutputNumber>2</LedWizEquivalentOutputNumber>
+      </LedWizEquivalentOutput>
+    </Outputs>
+    <LedWizNumber>120</LedWizNumber>
+  </LedWizEquivalent>
+</Toys>
+<AutoConfigEnabled>true</AutoConfigEnabled>
+</Cabinet>

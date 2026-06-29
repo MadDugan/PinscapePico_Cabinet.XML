@@ -1,0 +1,10 @@
+    outputs: [
+         // DOF port #1 - Launch Ball Button
+         {
+             device: { type: "gpio", gp: 16, pwm: false },  // GPIO output on GP16
+         },
+         // DOF port #2 - Fire Button
+         {
+             device: { type: "gpio", gp: 17, pwm: false },  // GPIO output on GP17
+         }
+    ],
